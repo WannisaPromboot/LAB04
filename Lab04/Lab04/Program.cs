@@ -4,16 +4,18 @@ public class IfLearning
 {
     public static void Main()
     {
-        int a = 2;
-        if (a == 2)
-        {
-            Console.WriteLine("execute this line");
-        }
+        int point = 68;
+        if (point < 50)
+            Console.WriteLine("Grade F");
+        else if (point < 60)
+            Console.WriteLine("Grade D");
+        else if (point < 70)
+            Console.WriteLine("Grade C");
+        else if (point < 80)
+            Console.WriteLine("Grade B");
         else
-        {
-            Console.WriteLine("execute another line too");
-        }
-        Console.WriteLine("this line is always execute");
+            Console.WriteLine("Grade A");
     }
 }
+
 
