@@ -1,23 +1,18 @@
 ﻿using System;
-public class TryCatch
+using System.IO;
+public class IfLearning
 {
-    static void Main(string[] args)
+    public static void Main()
     {
-        int value = 800000000;
-        checked // check for overflow
+        int a = 2;
+        if (a == 2)
         {
-            try
-            {
-                int square = value * value;
-                Console.WriteLine("{0} ^ 2 = {1}", value, square);
-            }
-
-            catch (OverflowException)
-            {
-                Console.WriteLine("It's Overflow Exception");
-
-            }
+            Console.WriteLine("execute this line");
         }
+        if (a < 2)
+        {
+            Console.WriteLine("execute this line too");
+        }
+        Console.WriteLine("execute next line");
     }
 }
-
