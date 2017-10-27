@@ -14,7 +14,6 @@ namespace ConsoleApp2
                 }
                 Console.WriteLine(i);
             }
-
             // Keep the console open in debug mode.
             Console.WriteLine("Press any key to exit.");
             Console.ReadKey();
